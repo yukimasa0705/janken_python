@@ -55,7 +55,9 @@ fun main2() {
     
     // 例2: 素数の個数を取得
     println("\n=== 素数の個数 ===")
-    val count = primesSequence(limit).count()
+    val count = primesSequence(limit).count(
+
+    )
     println("100以下の素数は $count 個です")
     
     // 例3: 素数の合計を計算
